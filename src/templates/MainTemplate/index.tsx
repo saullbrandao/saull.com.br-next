@@ -1,10 +1,15 @@
+import About from 'components/About'
 import Navbar from 'components/Navbar'
+import ProjectsList from 'components/ProjectsList'
+import * as S from './styles'
 
 const MainTemplate = () => {
   return (
-    <main>
+    <S.Wrapper>
       <Navbar />
-    </main>
+      <About />
+      <ProjectsList />
+    </S.Wrapper>
   )
 }
 
