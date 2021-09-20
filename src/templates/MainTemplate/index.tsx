@@ -1,5 +1,11 @@
+import Navbar from 'components/Navbar'
+
 const MainTemplate = () => {
-  return <h1>Boilerplate</h1>
+  return (
+    <main>
+      <Navbar />
+    </main>
+  )
 }
 
 export default MainTemplate
