@@ -4,7 +4,10 @@ export const Navbar = styled.nav`
   display: flex;
   justify-content: space-between;
   background: var(--black_secondary);
-  padding: var(--small);
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
 
   a {
     color: var(--white_secondary);
