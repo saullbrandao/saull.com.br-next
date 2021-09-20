@@ -7,7 +7,7 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Boilerplate</title>
+        <title>Saull Brandão</title>
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
