@@ -20,7 +20,6 @@ export const Container = styled.div`
   margin: 0 auto;
 
   a {
-    color: var(--white_secondary);
     text-decoration: none;
   }
 `
@@ -28,9 +27,14 @@ export const Container = styled.div`
 export const NavLink = styled.a`
   font-weight: 700;
   font-size: 2rem;
+  color: var(--highlight);
 `
 
 export const Wrapper = styled.div`
   display: flex;
   gap: var(--small);
+
+  a {
+    color: var(--white_secondary);
+  }
 `
