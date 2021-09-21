@@ -40,7 +40,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   p, a {
-    font-size: 2rem;
+    font-size: var(--small);
     line-height: var(--medium);
   }
 
