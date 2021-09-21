@@ -2,12 +2,23 @@ import * as S from './styles'
 
 const Project = () => {
   return (
-    <S.Wrapper>
+    <S.Container>
       <h2>Countries App</h2>
       <img
         src="https://raw.githubusercontent.com/saullbrandao/countries-app/main/demo-dark.png"
-        alt=""
+        alt="demo"
       />
+      <S.Wrapper>
+        <a href="https://github.com/saullbrandao/countries-app" target="_blank">
+          Source
+        </a>
+        <a
+          href="https://countries-app-saullbrandao.vercel.app/"
+          target="_blank"
+        >
+          Visit
+        </a>
+      </S.Wrapper>
       <ul>
         <li>
           Use data from the REST Countries API to display
@@ -21,7 +32,7 @@ const Project = () => {
           about the country selected
         </li>
       </ul>
-    </S.Wrapper>
+    </S.Container>
   )
 }
 
