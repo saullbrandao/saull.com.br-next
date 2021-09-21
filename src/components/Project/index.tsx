@@ -19,8 +19,8 @@ const Project = ({ title, image, url, repo, description }: ProjectProps) => {
         <Link href={url}>Visit</Link>
       </S.Wrapper>
       <ul>
-        {description.map((el) => (
-          <li>{el}</li>
+        {description.map((el, index) => (
+          <li key={index}>{el}</li>
         ))}
       </ul>
     </S.Container>
