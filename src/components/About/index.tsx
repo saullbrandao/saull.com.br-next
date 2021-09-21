@@ -1,9 +1,9 @@
-import Anchor from 'components/Anchor'
+import SectionWrapper from 'components/SectionWrapper'
 import * as S from './styles'
 
 const About = () => {
   return (
-    <Anchor id="about">
+    <SectionWrapper id="about">
       <S.AboutSection>
         <h1>About</h1>
         <p>
@@ -14,7 +14,7 @@ const About = () => {
           laborum sed veniam impedit? Veritatis, sint?
         </p>
       </S.AboutSection>
-    </Anchor>
+    </SectionWrapper>
   )
 }
 
