@@ -25,6 +25,11 @@ export const Container = styled.div`
   }
 `
 
+export const NavLink = styled.a`
+  font-weight: 700;
+  font-size: 2rem;
+`
+
 export const Wrapper = styled.div`
   display: flex;
   gap: var(--small);
