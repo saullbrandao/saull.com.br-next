@@ -1,6 +1,8 @@
+import * as S from './styles'
+
 const About = () => {
   return (
-    <div id="about">
+    <S.AboutSection id="about">
       <h1>About</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
@@ -9,7 +11,7 @@ const About = () => {
         Voluptatem reprehenderit officia odit corporis fugiat laborum sed veniam
         impedit? Veritatis, sint?
       </p>
-    </div>
+    </S.AboutSection>
   )
 }
 
