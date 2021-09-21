@@ -1,19 +1,19 @@
-import { Anchor } from 'components/Anchor/styles'
+import SectionWrapper from 'components/SectionWrapper'
 import Project from 'components/Project'
 import * as S from './styles'
 
+import projects from '../../../projects.json'
+
 const ProjectsList = () => {
   return (
-    <Anchor id="projects">
+    <SectionWrapper id="projects">
       <S.Wrapper>
         <h1>Projects</h1>
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
+        {projects.map((project) => (
+          <Project key={project.id} {...project} />
+        ))}
       </S.Wrapper>
-    </Anchor>
+    </SectionWrapper>
   )
 }
 

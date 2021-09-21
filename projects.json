@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "title": "Countries App",
+    "image": "https://raw.githubusercontent.com/saullbrandao/countries-app/main/demo-dark.png",
+    "repo": "https://github.com/saullbrandao/countries-app",
+    "url": "https://countries-app-saullbrandao.vercel.app",
+    "description": [
+      "Use data from the REST Countries API to display information(population, languages, currencies, capital, border countries, etc.) about the countries",
+      "You can filter by region and search by country name",
+      "There is a light and dark mode",
+      "Clicking on a card will open a new page which display more information about the country selected"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Countries App",
+    "image": "https://raw.githubusercontent.com/saullbrandao/countries-app/main/demo-dark.png",
+    "repo": "https://github.com/saullbrandao/countries-app",
+    "url": "https://countries-app-saullbrandao.vercel.app",
+    "description": [
+      "Use data from the REST Countries API to display information(population, languages, currencies, capital, border countries, etc.) about the countries",
+      "You can filter by region and search by country name",
+      "There is a light and dark mode",
+      "Clicking on a card will open a new page which display more information about the country selected"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Countries App",
+    "image": "https://raw.githubusercontent.com/saullbrandao/countries-app/main/demo-dark.png",
+    "repo": "https://github.com/saullbrandao/countries-app",
+    "url": "https://countries-app-saullbrandao.vercel.app",
+    "description": [
+      "Use data from the REST Countries API to display information(population, languages, currencies, capital, border countries, etc.) about the countries",
+      "You can filter by region and search by country name",
+      "There is a light and dark mode",
+      "Clicking on a card will open a new page which display more information about the country selected"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Countries App",
+    "image": "https://raw.githubusercontent.com/saullbrandao/countries-app/main/demo-dark.png",
+    "repo": "https://github.com/saullbrandao/countries-app",
+    "url": "https://countries-app-saullbrandao.vercel.app",
+    "description": [
+      "Use data from the REST Countries API to display information(population, languages, currencies, capital, border countries, etc.) about the countries",
+      "You can filter by region and search by country name",
+      "There is a light and dark mode",
+      "Clicking on a card will open a new page which display more information about the country selected"
+    ]
+  }
+]
