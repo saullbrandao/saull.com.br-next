@@ -5,13 +5,11 @@ const ProjectsList = () => {
   return (
     <S.Wrapper>
       <h1 id="projects">Projects</h1>
-      <S.Grid>
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-      </S.Grid>
+      <Project />
+      <Project />
+      <Project />
+      <Project />
+      <Project />
     </S.Wrapper>
   )
 }
