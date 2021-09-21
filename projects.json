@@ -14,41 +14,42 @@
   },
   {
     "id": 2,
-    "title": "Countries App",
-    "image": "https://raw.githubusercontent.com/saullbrandao/countries-app/main/demo-dark.png",
-    "repo": "https://github.com/saullbrandao/countries-app",
-    "url": "https://countries-app-saullbrandao.vercel.app",
+    "title": "Todo App",
+    "image": "https://raw.githubusercontent.com/saullbrandao/todo-app/main/demo-dark.png",
+    "repo": "https://github.com/saullbrandao/todo-app",
+    "url": "https://todo-app-saullbrandao.vercel.app",
     "description": [
-      "Use data from the REST Countries API to display information(population, languages, currencies, capital, border countries, etc.) about the countries",
-      "You can filter by region and search by country name",
-      "There is a light and dark mode",
-      "Clicking on a card will open a new page which display more information about the country selected"
+      "Can add, mark as completed and delete todos",
+      "Filter by all/active/complete todos",
+      "Clear all completed todos",
+      "Todos are saved to localStorage for persistence",
+      "Toggle light and dark mode",
+      "Responsive layout"
     ]
   },
   {
     "id": 3,
-    "title": "Countries App",
-    "image": "https://raw.githubusercontent.com/saullbrandao/countries-app/main/demo-dark.png",
-    "repo": "https://github.com/saullbrandao/countries-app",
-    "url": "https://countries-app-saullbrandao.vercel.app",
+    "title": "Domain Tracker",
+    "image": "https://raw.githubusercontent.com/saullbrandao/domain-tracker/main/demo.png",
+    "repo": "https://github.com/saullbrandao/domain-tracker",
+    "url": "https://domain-tracker-orcin-delta.vercel.app/",
     "description": [
-      "Use data from the REST Countries API to display information(population, languages, currencies, capital, border countries, etc.) about the countries",
-      "You can filter by region and search by country name",
-      "There is a light and dark mode",
-      "Clicking on a card will open a new page which display more information about the country selected"
+      "Show user's ip information on first page load",
+      "Search for any IP addresses or domains and see the key information and location",
+      "Responsive Layout"
     ]
   },
   {
     "id": 4,
-    "title": "Countries App",
-    "image": "https://raw.githubusercontent.com/saullbrandao/countries-app/main/demo-dark.png",
-    "repo": "https://github.com/saullbrandao/countries-app",
-    "url": "https://countries-app-saullbrandao.vercel.app",
+    "title": "devBook",
+    "image": "https://raw.githubusercontent.com/saullbrandao/devbook/main/demo-dark.png",
+    "repo": "https://github.com/saullbrandao/devbook",
+    "url": "https://devbook-mu.vercel.app/",
     "description": [
-      "Use data from the REST Countries API to display information(population, languages, currencies, capital, border countries, etc.) about the countries",
-      "You can filter by region and search by country name",
+      "Display the top 10 github users on the homepage",
+      "You can search github users",
       "There is a light and dark mode",
-      "Clicking on a card will open a new page which display more information about the country selected"
+      "Clicking on a card will open a new page which display the user's stats"
     ]
   }
 ]
