@@ -14,10 +14,10 @@ const Project = ({ title, image, url, repo, description }: ProjectProps) => {
     <S.Container>
       <S.Wrapper>
         <h2>{title}</h2>
-        <a href={repo}>
+        <a href={repo} target="_blank" rel="noreferrer">
           <FaGithub />
         </a>
-        <a href={url}>
+        <a href={url} target="_blank" rel="noreferrer">
           <FaGlobe />
         </a>
       </S.Wrapper>
