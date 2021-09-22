@@ -8,6 +8,7 @@ export const Container = styled.div`
   background-color: var(--black_secondary);
   padding: var(--medium);
   border-radius: var(--small);
+  color: var(--white_primary);
 
   img {
     width: 100%;
@@ -16,6 +17,7 @@ export const Container = styled.div`
   ul {
     list-style: circle inside none;
     font-size: var(--small);
+    line-height: var(--medium);
   }
 `
 export const Wrapper = styled.div`
