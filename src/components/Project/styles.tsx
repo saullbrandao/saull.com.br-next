@@ -5,6 +5,9 @@ export const Container = styled.div`
   flex-direction: column;
   gap: var(--medium);
   width: 100%;
+  background-color: var(--black_secondary);
+  padding: var(--medium);
+  border-radius: var(--small);
 
   img {
     width: 100%;
