@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import { FaGithub, FaGlobe } from 'react-icons/fa'
 import * as S from './styles'
 
 type ProjectProps = {
@@ -12,12 +12,16 @@ type ProjectProps = {
 const Project = ({ title, image, url, repo, description }: ProjectProps) => {
   return (
     <S.Container>
-      <h2>{title}</h2>
-      <img src={image} alt="demo" />
       <S.Wrapper>
-        <Link href={repo}>Source</Link>
-        <Link href={url}>Visit</Link>
+        <h2>{title}</h2>
+        <a href={repo}>
+          <FaGithub />
+        </a>
+        <a href={url}>
+          <FaGlobe />
+        </a>
       </S.Wrapper>
+      <img src={image} alt="demo" />
       <ul>
         {description.map((el, index) => (
           <li key={index}>{el}</li>

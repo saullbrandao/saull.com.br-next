@@ -6,12 +6,6 @@ export const Container = styled.div`
   gap: var(--small);
   width: 100%;
 
-  h2 {
-    color: var(--white_primary);
-    font-size: 2rem;
-    margin: 0 auto;
-  }
-
   img {
     width: 100%;
   }
@@ -25,4 +19,21 @@ export const Wrapper = styled.div`
   display: flex;
   gap: var(--small);
   justify-content: center;
+  align-items: center;
+
+  h2 {
+    color: var(--white_primary);
+    font-size: 2rem;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    color: var(--white_primary);
+  }
+
+  svg {
+    width: var(--medium);
+    height: var(--medium);
+  }
 `
