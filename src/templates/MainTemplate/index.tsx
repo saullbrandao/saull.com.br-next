@@ -1,5 +1,4 @@
 import About from 'components/About'
-import ContactSection from 'components/ContactSection'
 import Navbar from 'components/Navbar'
 import ProjectsList from 'components/ProjectsList'
 import * as S from './styles'
@@ -10,7 +9,6 @@ const MainTemplate = () => {
       <Navbar />
       <About />
       <ProjectsList />
-      <ContactSection />
     </S.Wrapper>
   )
 }

@@ -4,11 +4,10 @@ const Navbar = () => {
   return (
     <S.Navbar>
       <S.Container>
-        <S.NavLink href="/">Saull Brandão</S.NavLink>
+        <S.NavLink href="#">Saull Brandão</S.NavLink>
         <S.Wrapper>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
         </S.Wrapper>
       </S.Container>
     </S.Navbar>
