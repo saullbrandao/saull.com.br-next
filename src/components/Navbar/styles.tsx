@@ -8,6 +8,7 @@ export const Navbar = styled.nav`
   position: sticky;
   top: 0;
   width: 100%;
+  z-index: 10;
 `
 
 export const Container = styled.div`
