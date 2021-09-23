@@ -28,6 +28,10 @@ export const NavLink = styled.a`
   font-weight: 700;
   font-size: 2rem;
   color: var(--highlight);
+
+  &:hover {
+    opacity: 0.7;
+  }
 `
 
 export const Wrapper = styled.div`
@@ -36,5 +40,9 @@ export const Wrapper = styled.div`
 
   a {
     color: var(--white_secondary);
+  }
+
+  a:hover {
+    color: var(--highlight);
   }
 `

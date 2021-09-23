@@ -26,15 +26,16 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
 
-  h2 {
-    color: var(--white_primary);
-    font-size: 2rem;
-  }
-
   a {
+    font-size: 2.5rem;
     display: flex;
     justify-content: center;
     color: var(--white_primary);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--highlight);
   }
 
   svg {

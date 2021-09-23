@@ -13,12 +13,13 @@ const Project = ({ title, image, url, repo, description }: ProjectProps) => {
   return (
     <S.Container>
       <S.Wrapper>
-        <h2>{title}</h2>
+        <h2>
+          <a href={url} target="_blank" rel="noreferrer">
+            {title}
+          </a>
+        </h2>
         <a href={repo} target="_blank" rel="noreferrer">
           <FaGithub />
-        </a>
-        <a href={url} target="_blank" rel="noreferrer">
-          <FaGlobe />
         </a>
       </S.Wrapper>
       <img src={image} alt="demo" />

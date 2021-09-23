@@ -19,5 +19,10 @@ export const Wrapper = styled.div`
   svg {
     width: 2rem;
     height: 2rem;
+    color: var(--white_secondary);
+  }
+
+  svg:hover {
+    color: var(--highlight);
   }
 `
