@@ -1,12 +1,18 @@
 import { createGlobalStyle } from 'styled-components'
 
-const GlobalStyles = createGlobalStyle`
+type ThemeType = {
+  title: string
+  colors: {
+    bg_primary: string
+    bg_secondary: string
+    text_primary: string
+    text_secondary: string
+    highlight: string
+  }
+}
+
+const GlobalStyles = createGlobalStyle<{ theme: ThemeType }>`
   :root {
-    --black_primary: #1a1a1a;
-    --black_secondary: #333333;
-    --white_primary: #ffffff;
-    --white_secondary: #d4d4d4;
-    --highlight: #64baff;
     --container: 100rem;
     --small: 1.5rem;
     --medium: 3rem;
@@ -26,8 +32,9 @@ const GlobalStyles = createGlobalStyle`
 
   html, body, #__next {
     height: 100%;
-    background: var(--black_primary);
-    color: var(--white_secondary);
+    background: ${(props) => props.theme.colors.bg_primary};
+    color: ${(props) => props.theme.colors.text_primary};
+    transition: all 0.25s linear;
   }
 
   body {
@@ -36,7 +43,7 @@ const GlobalStyles = createGlobalStyle`
 
   h1 {
     font-size: var(--medium);
-    color: var(--highlight);
+    color: ${(props) => props.theme.colors.highlight};
   }
 
   p, a {
@@ -45,7 +52,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   a {
-    color: var(--highlight);
+    color: ${(props) => props.theme.colors.highlight};
   }
 `
 

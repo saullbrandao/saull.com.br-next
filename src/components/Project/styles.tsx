@@ -5,10 +5,10 @@ export const Container = styled.div`
   flex-direction: column;
   gap: var(--medium);
   width: 100%;
-  background-color: var(--black_secondary);
+  background: ${(props) => props.theme.colors.bg_secondary};
   padding: var(--medium);
   border-radius: var(--small);
-  color: var(--white_primary);
+  color: ${(props) => props.theme.colors.text_primary};
 
   img {
     width: 100%;
@@ -30,12 +30,12 @@ export const Wrapper = styled.div`
     font-size: 2.5rem;
     display: flex;
     justify-content: center;
-    color: var(--white_primary);
+    color: ${(props) => props.theme.colors.text_secondary};
     text-decoration: none;
   }
 
   a:hover {
-    color: var(--highlight);
+    color: ${(props) => props.theme.colors.highlight};
   }
 
   svg {

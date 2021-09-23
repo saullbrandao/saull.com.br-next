@@ -19,10 +19,10 @@ export const Wrapper = styled.div`
   svg {
     width: 2rem;
     height: 2rem;
-    color: var(--white_secondary);
+    color: ${(props) => props.theme.colors.text_primary};
   }
 
   svg:hover {
-    color: var(--highlight);
+    color: ${(props) => props.theme.colors.highlight};
   }
 `

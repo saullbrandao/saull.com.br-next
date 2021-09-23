@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Navbar = styled.nav`
   display: flex;
   justify-content: center;
-  background: var(--black_secondary);
+  background: ${(props) => props.theme.colors.bg_secondary};
   padding: var(--small);
   position: sticky;
   top: 0;
@@ -28,7 +28,7 @@ export const Container = styled.div`
 export const NavLink = styled.a`
   font-weight: 700;
   font-size: 2rem;
-  color: var(--highlight);
+  color: ${(props) => props.theme.colors.highlight};
 
   &:hover {
     opacity: 0.7;
@@ -40,10 +40,10 @@ export const Wrapper = styled.div`
   gap: var(--small);
 
   a {
-    color: var(--white_secondary);
+    color: ${(props) => props.theme.colors.text_secondary};
   }
 
   a:hover {
-    color: var(--highlight);
+    color: ${(props) => props.theme.colors.highlight};
   }
 `
