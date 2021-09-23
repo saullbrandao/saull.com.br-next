@@ -1,4 +1,5 @@
 import { FaGithub, FaGlobe } from 'react-icons/fa'
+import Image from 'next/image'
 import * as S from './styles'
 
 type ProjectProps = {
@@ -22,7 +23,7 @@ const Project = ({ title, image, url, repo, description }: ProjectProps) => {
           <FaGithub />
         </a>
       </S.Wrapper>
-      <img src={image} alt="demo" />
+      <Image src={image} alt="demo" width={1920} height={930} />
       <ul>
         {description.map((el, index) => (
           <li key={index}>{el}</li>

@@ -6,6 +6,7 @@ const About = () => {
     <SectionWrapper id="about">
       <S.AboutSection>
         <h1>About</h1>
+        {/* TODO: write about me */}
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
           voluptatum cum enim dolorem excepturi culpa hic, rem nulla amet dolore
