@@ -12,6 +12,25 @@ export const Container = styled.div`
 
   img {
     width: 100%;
+
+    background: #abacae;
+    background-image: linear-gradient(
+      to right,
+      #abacae 0%,
+      #7e8087 20%,
+      #abacae 40%,
+      #abacae 100%
+    );
+    animation: placeholderShimmer 1s linear infinite forwards;
+
+    @keyframes placeholderShimmer {
+      0% {
+        background-position: -40rem 0;
+      }
+      100% {
+        background-position: 40rem 0;
+      }
+    }
   }
 
   ul {
@@ -20,6 +39,7 @@ export const Container = styled.div`
     line-height: var(--medium);
   }
 `
+
 export const Wrapper = styled.div`
   display: flex;
   gap: var(--small);

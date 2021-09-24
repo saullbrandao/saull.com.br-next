@@ -30,7 +30,6 @@ const Project = ({ title, images, url, repo, description }: ProjectProps) => {
           <FaGithub />
         </a>
       </S.Wrapper>
-      {/* TODO: add loading skeletons */}
       <Image
         src={themeMode === 'light' ? images.light : images.dark}
         alt="demo"
