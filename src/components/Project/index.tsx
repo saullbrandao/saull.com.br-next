@@ -9,7 +9,6 @@ type ProjectProps = {
     light: string
     dark: string
   }
-  darkImage: string
   url: string
   repo: string
   description: string[]
