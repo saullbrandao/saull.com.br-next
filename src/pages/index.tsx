@@ -1,5 +1,3 @@
-import MainTemplate from 'templates/MainTemplate'
-
-const Home = () => <MainTemplate />
+const Home = () => <h1>Home</h1>
 
 export default Home

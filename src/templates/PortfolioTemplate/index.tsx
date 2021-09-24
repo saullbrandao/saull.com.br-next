@@ -4,7 +4,7 @@ import Navbar from 'components/Navbar'
 import ProjectsList from 'components/ProjectsList'
 import * as S from './styles'
 
-const MainTemplate = () => {
+const PortfolioTemplate = () => {
   return (
     <S.Wrapper>
       <Navbar />
@@ -15,4 +15,4 @@ const MainTemplate = () => {
   )
 }
 
-export default MainTemplate
+export default PortfolioTemplate
