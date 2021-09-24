@@ -1,4 +1,4 @@
-import ThemeToggler from 'components/ThemeToggler'
+import { ThemeContext } from 'hooks/useTheme'
 import { AppProps } from 'next/dist/shared/lib/router/router'
 import Head from 'next/head'
 import { useState } from 'react'
@@ -7,7 +7,7 @@ import GlobalStyles from 'styles/global'
 import { darkTheme, lightTheme } from 'styles/themes'
 
 function App({ Component, pageProps }: AppProps) {
-  const [theme, setTheme] = useState(lightTheme)
+  const [theme, setTheme] = useState(darkTheme)
 
   const toggleTheme = () => {
     const newTheme = theme.title === 'light' ? darkTheme : lightTheme
@@ -15,14 +15,15 @@ function App({ Component, pageProps }: AppProps) {
   }
 
   return (
-    <ThemeProvider theme={theme}>
-      <Head>
-        <title>Saull Brandão</title>
-      </Head>
-      <GlobalStyles />
-      <Component {...pageProps} />
-      <ThemeToggler toggleTheme={toggleTheme} />
-    </ThemeProvider>
+    <ThemeContext.Provider value={{ themeMode: theme.title, toggleTheme }}>
+      <ThemeProvider theme={theme}>
+        <Head>
+          <title>Saull Brandão</title>
+        </Head>
+        <GlobalStyles />
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </ThemeContext.Provider>
   )
 }
 

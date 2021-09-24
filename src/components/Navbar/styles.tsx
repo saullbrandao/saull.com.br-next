@@ -38,6 +38,7 @@ export const NavLink = styled.a`
 export const Wrapper = styled.div`
   display: flex;
   gap: var(--small);
+  align-items: center;
 
   a {
     color: ${(props) => props.theme.colors.text_secondary};

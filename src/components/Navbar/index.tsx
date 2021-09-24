@@ -1,3 +1,4 @@
+import ThemeToggler from 'components/ThemeToggler'
 import * as S from './styles'
 
 const Navbar = () => {
@@ -8,6 +9,7 @@ const Navbar = () => {
         <S.Wrapper>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
+          <ThemeToggler />
         </S.Wrapper>
       </S.Container>
     </S.Navbar>
