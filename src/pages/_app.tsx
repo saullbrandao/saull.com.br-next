@@ -18,7 +18,7 @@ function App({ Component, pageProps }: AppProps) {
     <ThemeContext.Provider value={{ themeMode: theme.title, toggleTheme }}>
       <ThemeProvider theme={theme}>
         <Head>
-          <title>Saull Brandão</title>
+          <title>Saull Brandão | Portfolio</title>
         </Head>
         <GlobalStyles />
         <Component {...pageProps} />
