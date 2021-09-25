@@ -1,13 +1,55 @@
+import ThemeToggler from 'components/ThemeToggler'
 import Link from 'next/link'
+import {
+  FaBriefcase,
+  FaFolderOpen,
+  FaGithub,
+  FaLinkedin,
+  FaTwitter
+} from 'react-icons/fa'
 import * as S from './styles'
 
-// TODO: homepage
 const HomeTemplate = () => {
   return (
-    <S.Wrapper>
-      <h1>Home</h1>
-      <Link href="/portfolio">Portfolio</Link>
-    </S.Wrapper>
+    <S.Container>
+      <S.Heading>Saull Brandão</S.Heading>
+      <S.Text>Front End Developer</S.Text>
+      <S.Wrapper>
+        <Link href="/portfolio">
+          <a>
+            Portfolio
+            <FaFolderOpen />
+          </a>
+        </Link>
+        <a
+          href="https://github.com/saullbrandao"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+          <FaGithub />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/saullbrandao/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Linkedin
+          <FaLinkedin />
+        </a>
+
+        <a
+          href="https://twitter.com/saullbrandao"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Twitter
+          <FaTwitter />
+        </a>
+
+        <ThemeToggler title="Theme" />
+      </S.Wrapper>
+    </S.Container>
   )
 }
 

@@ -2,11 +2,16 @@ import { useTheme } from 'hooks/useTheme'
 import { VscColorMode } from 'react-icons/vsc'
 import * as S from './styles'
 
-const ThemeToggler = () => {
+type ThemeTogglerProps = {
+  title?: string
+}
+
+const ThemeToggler = ({ title }: ThemeTogglerProps) => {
   const { toggleTheme } = useTheme()
 
   return (
     <S.Toggle onClick={toggleTheme}>
+      {title}
       <VscColorMode />
     </S.Toggle>
   )
