@@ -8,6 +8,7 @@ export const Container = styled.main`
   gap: var(--large);
   min-height: 100vh;
   width: fit-content;
+  max-width: var(--container);
   margin: 0 auto;
 `
 

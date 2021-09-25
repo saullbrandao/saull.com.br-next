@@ -1,8 +1,12 @@
 import styled from 'styled-components'
 
-export const FooterSection = styled.footer`
+type FooterSectionProps = {
+  showIcons: boolean
+}
+
+export const FooterSection = styled.footer<FooterSectionProps>`
   display: flex;
-  justify-content: space-between;
+  justify-content: ${(props) => (props.showIcons ? 'space-between' : 'center')};
   gap: var(--small);
   margin: 0 auto;
   width: 100%;
