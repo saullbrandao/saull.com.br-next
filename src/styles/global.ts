@@ -34,7 +34,7 @@ const GlobalStyles = createGlobalStyle<{ theme: ThemeType }>`
     height: 100%;
     background: ${(props) => props.theme.colors.bg_primary};
     color: ${(props) => props.theme.colors.text_primary};
-    transition: all 0.25s linear;
+    transition: all 0.4s ease-in-out;
   }
 
   body {
