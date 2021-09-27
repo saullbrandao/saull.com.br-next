@@ -7,13 +7,9 @@ const Navbar = () => {
     <S.Navbar>
       <S.Container>
         <Link href="/" passHref>
-          <S.NavLink>Saull Brandão</S.NavLink>
+          <a>Saull Brandão</a>
         </Link>
-        <S.Wrapper>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <ThemeToggler />
-        </S.Wrapper>
+        <ThemeToggler />
       </S.Container>
     </S.Navbar>
   )

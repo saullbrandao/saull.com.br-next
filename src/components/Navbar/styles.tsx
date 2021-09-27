@@ -16,31 +16,14 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 var(--small);
+  padding: 0 2rem;
   max-width: var(--container);
   margin: 0 auto;
 
   a {
     text-decoration: none;
-  }
-`
-
-export const NavLink = styled.a`
-  font-weight: 700;
-  font-size: 2rem;
-  color: ${(props) => props.theme.colors.highlight};
-
-  &:hover {
-    opacity: 0.7;
-  }
-`
-
-export const Wrapper = styled.div`
-  display: flex;
-  gap: var(--small);
-  align-items: center;
-
-  a {
+    font-size: 2rem;
+    font-weight: 700;
     color: ${(props) => props.theme.colors.text_secondary};
   }
 
