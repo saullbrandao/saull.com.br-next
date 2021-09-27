@@ -1,8 +1,10 @@
 import Footer from 'components/Footer'
 import Navbar from 'components/Navbar'
-import ProjectsList from 'components/ProjectsList'
+import Project from 'components/Project'
 import Head from 'next/head'
 import * as S from './styles'
+
+import projects from '../../../projects.json'
 
 const PortfolioTemplate = () => {
   return (
@@ -16,7 +18,12 @@ const PortfolioTemplate = () => {
       </Head>
       <S.Wrapper>
         <Navbar />
-        <ProjectsList />
+        <S.ProjectsWrapper>
+          <h1>Projects</h1>
+          {projects.map((project) => (
+            <Project key={project.id} {...project} />
+          ))}
+        </S.ProjectsWrapper>
         <Footer />
       </S.Wrapper>
     </>
