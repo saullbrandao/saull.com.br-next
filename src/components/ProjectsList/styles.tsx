@@ -6,6 +6,6 @@ export const Wrapper = styled.div`
   justify-content: center;
   gap: var(--large);
   max-width: var(--container);
-  margin: 0 auto;
+  margin: var(--small) auto;
   padding: var(--small);
 `

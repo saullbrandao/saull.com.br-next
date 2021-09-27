@@ -16,7 +16,7 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 2rem;
+  padding: 0 var(--small);
   max-width: var(--container);
   margin: 0 auto;
 
