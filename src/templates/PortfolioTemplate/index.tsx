@@ -1,4 +1,3 @@
-import About from 'components/About'
 import Footer from 'components/Footer'
 import Navbar from 'components/Navbar'
 import ProjectsList from 'components/ProjectsList'
@@ -13,7 +12,6 @@ const PortfolioTemplate = () => {
       </Head>
       <S.Wrapper>
         <Navbar />
-        <About />
         <ProjectsList />
         <Footer />
       </S.Wrapper>
