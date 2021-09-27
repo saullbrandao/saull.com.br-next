@@ -10,7 +10,7 @@ const ThemeToggler = ({ title }: ThemeTogglerProps) => {
   const { toggleTheme } = useTheme()
 
   return (
-    <S.Toggle onClick={toggleTheme}>
+    <S.Toggle aria-label="Toggle between themes" onClick={toggleTheme}>
       {title}
       <VscColorMode />
     </S.Toggle>

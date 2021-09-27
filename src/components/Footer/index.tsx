@@ -12,6 +12,7 @@ const Footer = ({ showIcons = true }) => {
             href="https://github.com/saullbrandao"
             target="_blank"
             rel="noreferrer"
+            aria-label="Github page"
           >
             <FaGithub />
           </a>
@@ -19,16 +20,23 @@ const Footer = ({ showIcons = true }) => {
             href="https://www.linkedin.com/in/saullbrandao/"
             target="_blank"
             rel="noreferrer"
+            aria-label="Linkedin page"
           >
             <FaLinkedin />
           </a>
-          <a href="mailto: saull@outlook.com" target="_blank" rel="noreferrer">
+          <a
+            href="mailto: saull@outlook.com"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Email address"
+          >
             <FiMail />
           </a>
           <a
             href="https://twitter.com/saullbrandao"
             target="_blank"
             rel="noreferrer"
+            aria-label="Twitter page"
           >
             <FaTwitter />
           </a>

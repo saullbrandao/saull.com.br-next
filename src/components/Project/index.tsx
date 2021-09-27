@@ -25,7 +25,12 @@ const Project = ({ title, images, url, repo, description }: ProjectProps) => {
             {title}
           </a>
         </h2>
-        <a href={repo} target="_blank" rel="noreferrer">
+        <a
+          href={repo}
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Github Repository"
+        >
           <FaGithub />
         </a>
       </S.Wrapper>
