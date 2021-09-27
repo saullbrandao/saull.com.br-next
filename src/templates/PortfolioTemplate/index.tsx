@@ -8,7 +8,11 @@ const PortfolioTemplate = () => {
   return (
     <>
       <Head>
-        <title>Saull Brandão | Portfolio</title>
+        <meta
+          name="description"
+          content="Portfolio of projects made by the site's owner"
+        />
+        <title>Portfolio | Saull Brandão</title>
       </Head>
       <S.Wrapper>
         <Navbar />

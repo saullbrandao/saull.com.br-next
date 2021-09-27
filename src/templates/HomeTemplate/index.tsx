@@ -1,13 +1,7 @@
 import Footer from 'components/Footer'
 import ThemeToggler from 'components/ThemeToggler'
 import Link from 'next/link'
-import {
-  FaBriefcase,
-  FaFolderOpen,
-  FaGithub,
-  FaLinkedin,
-  FaTwitter
-} from 'react-icons/fa'
+import { FaFolderOpen, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import * as S from './styles'
 
 const HomeTemplate = () => {
