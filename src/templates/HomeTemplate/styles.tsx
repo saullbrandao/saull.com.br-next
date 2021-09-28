@@ -46,7 +46,7 @@ export const Wrapper = styled.div`
   }
 
   svg {
-    width: var(--large);
+    width: var(--large) !important;
     height: auto;
   }
 `

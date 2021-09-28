@@ -31,3 +31,7 @@ export const Container = styled.div`
     color: ${(props) => props.theme.colors.highlight};
   }
 `
+export const Wrapper = styled.div`
+  display: flex;
+  gap: var(--small);
+`

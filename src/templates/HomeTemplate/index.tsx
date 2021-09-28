@@ -4,6 +4,7 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 import { FaFolderOpen, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import * as S from './styles'
+import LanguageToggler from 'components/LanguageToggler'
 
 const HomeTemplate = () => {
   const { locale } = useRouter()
@@ -11,7 +12,8 @@ const HomeTemplate = () => {
   const text =
     locale === 'pt-BR' ? 'Desenvolvedor Front End' : 'Front End Developer'
 
-  const togglerTitle = locale === 'pt-BR' ? 'Tema' : 'Theme'
+  const themeTitle = locale === 'pt-BR' ? 'Tema' : 'Theme'
+  const langTitle = locale === 'pt-BR' ? 'Idioma' : 'Language'
 
   return (
     <>
@@ -51,7 +53,8 @@ const HomeTemplate = () => {
             <FaTwitter />
           </a>
 
-          <ThemeToggler title={togglerTitle} />
+          <ThemeToggler title={themeTitle} />
+          <LanguageToggler title={langTitle} />
         </S.Wrapper>
         <Footer showIcons={false} />
       </S.Container>
