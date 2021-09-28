@@ -53,12 +53,6 @@ const HomeTemplate = () => {
 
           <ThemeToggler title={togglerTitle} />
         </S.Wrapper>
-        <Link href="/" locale="pt-BR">
-          <a>pt-BR</a>
-        </Link>
-        <Link href="/" locale="en-US">
-          <a>en-US</a>
-        </Link>
         <Footer showIcons={false} />
       </S.Container>
     </>
