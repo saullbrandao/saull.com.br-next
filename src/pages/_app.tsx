@@ -1,6 +1,7 @@
 import { ThemeContext } from 'hooks/useTheme'
 import { AppProps } from 'next/dist/shared/lib/router/router'
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import { ThemeProvider } from 'styled-components'
 import GlobalStyles from 'styles/global'
@@ -8,6 +9,12 @@ import { darkTheme, lightTheme } from 'styles/themes'
 
 function App({ Component, pageProps }: AppProps) {
   const [theme, setTheme] = useState(darkTheme)
+  const { locale } = useRouter()
+
+  const metaDescription =
+    locale === 'pt-BR'
+      ? 'Site para mostrar alguns links importantes e projetos feitos por um desenvolvedor'
+      : 'A site to display important links and projects made by a developer'
 
   const toggleTheme = () => {
     const newTheme = theme.title === 'light' ? darkTheme : lightTheme
@@ -33,10 +40,7 @@ function App({ Component, pageProps }: AppProps) {
     <ThemeContext.Provider value={{ themeMode: theme.title, toggleTheme }}>
       <ThemeProvider theme={theme}>
         <Head>
-          <meta
-            name="description"
-            content="A site to display projects made by a front end developer and important links"
-          />
+          <meta name="description" content={metaDescription} />
           <title>Home | Saull Brandão</title>
         </Head>
         <GlobalStyles />

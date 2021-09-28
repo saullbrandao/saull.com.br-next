@@ -1,15 +1,23 @@
 import Footer from 'components/Footer'
 import ThemeToggler from 'components/ThemeToggler'
+import { useRouter } from 'next/router'
 import Link from 'next/link'
 import { FaFolderOpen, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import * as S from './styles'
 
 const HomeTemplate = () => {
+  const { locale } = useRouter()
+
+  const text =
+    locale === 'pt-BR' ? 'Desenvolvedor Front End' : 'Front End Developer'
+
+  const togglerTitle = locale === 'pt-BR' ? 'Tema' : 'Theme'
+
   return (
     <>
       <S.Container>
         <S.Heading>Saull Brandão</S.Heading>
-        <S.Text>Front End Developer</S.Text>
+        <S.Text>{text}</S.Text>
         <S.Wrapper>
           <Link href="/portfolio">
             <a>
@@ -43,7 +51,7 @@ const HomeTemplate = () => {
             <FaTwitter />
           </a>
 
-          <ThemeToggler title="Theme" />
+          <ThemeToggler title={togglerTitle} />
         </S.Wrapper>
         <Footer showIcons={false} />
       </S.Container>

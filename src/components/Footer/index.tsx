@@ -1,11 +1,19 @@
+import { useRouter } from 'next/router'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { FiMail } from 'react-icons/fi'
 import * as S from './styles'
 
 const Footer = ({ showIcons = true }) => {
+  const { locale } = useRouter()
+
+  const footerText =
+    locale === 'pt-BR'
+      ? 'Todos os direitos reservados.'
+      : 'All rights reserved.'
+
   return (
     <S.FooterSection showIcons={showIcons}>
-      <span>© 2021 Saull Brandão. All rights reserved.</span>
+      <span>© 2021 Saull Brandão. {footerText}</span>
       {showIcons && (
         <S.Wrapper>
           <a

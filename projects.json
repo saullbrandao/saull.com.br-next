@@ -8,12 +8,21 @@
     },
     "repo": "https://github.com/saullbrandao/countries-app",
     "url": "https://countries-app-saullbrandao.vercel.app",
-    "description": [
-      "Use data from the REST Countries API to display information(population, languages, currencies, capital, border countries, etc.) about the countries",
-      "You can filter by region and search by country name",
-      "There is a light and dark mode",
-      "Clicking on a card will open a new page which display more information about the country selected"
-    ]
+    "description": {
+      "ptBR": [
+        "PT_BR",
+        "Use data from the REST Countries API to display information(population, languages, currencies, capital, border countries, etc.) about the countries",
+        "You can filter by region and search by country name",
+        "There is a light and dark mode",
+        "Clicking on a card will open a new page which display more information about the country selected"
+      ],
+      "enUS": [
+        "Use data from the REST Countries API to display information(population, languages, currencies, capital, border countries, etc.) about the countries",
+        "You can filter by region and search by country name",
+        "There is a light and dark mode",
+        "Clicking on a card will open a new page which display more information about the country selected"
+      ]
+    }
   },
   {
     "id": 2,
@@ -24,14 +33,24 @@
     },
     "repo": "https://github.com/saullbrandao/todo-app",
     "url": "https://todo-app-saullbrandao.vercel.app",
-    "description": [
-      "Can add, mark as completed and delete todos",
-      "Filter by all/active/complete todos",
-      "Clear all completed todos",
-      "Todos are saved to localStorage for persistence",
-      "Toggle light and dark mode",
-      "Responsive layout"
-    ]
+    "description": {
+      "ptBR": [
+        "Can add, mark as completed and delete todos",
+        "Filter by all/active/complete todos",
+        "Clear all completed todos",
+        "Todos are saved to localStorage for persistence",
+        "Toggle light and dark mode",
+        "Responsive layout"
+      ],
+      "enUS": [
+        "Can add, mark as completed and delete todos",
+        "Filter by all/active/complete todos",
+        "Clear all completed todos",
+        "Todos are saved to localStorage for persistence",
+        "Toggle light and dark mode",
+        "Responsive layout"
+      ]
+    }
   },
   {
     "id": 3,
@@ -42,11 +61,18 @@
     },
     "repo": "https://github.com/saullbrandao/domain-tracker",
     "url": "https://domain-tracker-orcin-delta.vercel.app/",
-    "description": [
-      "Show user's ip information on first page load",
-      "Search for any IP addresses or domains and see the key information and location",
-      "Responsive Layout"
-    ]
+    "description": {
+      "ptBR": [
+        "Show user's ip information on first page load",
+        "Search for any IP addresses or domains and see the key information and location",
+        "Responsive Layout"
+      ],
+      "enUS": [
+        "Show user's ip information on first page load",
+        "Search for any IP addresses or domains and see the key information and location",
+        "Responsive Layout"
+      ]
+    }
   },
   {
     "id": 4,
@@ -57,11 +83,19 @@
     },
     "repo": "https://github.com/saullbrandao/devbook",
     "url": "https://devbook-mu.vercel.app/",
-    "description": [
-      "Display the top 10 github users on the homepage",
-      "You can search github users",
-      "There is a light and dark mode",
-      "Clicking on a card will open a new page which display the user's stats"
-    ]
+    "description": {
+      "ptBR": [
+        "Display the top 10 github users on the homepage",
+        "You can search github users",
+        "There is a light and dark mode",
+        "Clicking on a card will open a new page which display the user's stats"
+      ],
+      "enUS": [
+        "Display the top 10 github users on the homepage",
+        "You can search github users",
+        "There is a light and dark mode",
+        "Clicking on a card will open a new page which display the user's stats"
+      ]
+    }
   }
 ]

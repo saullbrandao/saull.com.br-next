@@ -1,6 +1,7 @@
 import { FaGithub } from 'react-icons/fa'
 import Image from 'next/image'
 import { useTheme } from 'hooks/useTheme'
+import { useRouter } from 'next/router'
 import * as S from './styles'
 
 type ProjectProps = {
@@ -11,11 +12,17 @@ type ProjectProps = {
   }
   url: string
   repo: string
-  description: string[]
+  description: {
+    ptBR: string[]
+    enUS: string[]
+  }
 }
 
 const Project = ({ title, images, url, repo, description }: ProjectProps) => {
   const { themeMode } = useTheme()
+  const { locale } = useRouter()
+
+  const language = locale === 'pt-BR' ? 'ptBR' : 'enUS'
 
   return (
     <S.Container>
@@ -29,7 +36,9 @@ const Project = ({ title, images, url, repo, description }: ProjectProps) => {
           href={repo}
           target="_blank"
           rel="noreferrer"
-          aria-label="Github Repository"
+          aria-label={
+            locale === 'pt-BR' ? 'Repositório no github' : 'Github Repository'
+          }
         >
           <FaGithub />
         </a>
@@ -41,7 +50,7 @@ const Project = ({ title, images, url, repo, description }: ProjectProps) => {
         height={930}
       />
       <ul>
-        {description.map((el, index) => (
+        {description[language].map((el, index) => (
           <li key={index}>{el}</li>
         ))}
       </ul>
