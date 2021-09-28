@@ -16,7 +16,12 @@ const LanguageToggler = ({ title }: LanguageTogglerProps) => {
   }
 
   return (
-    <S.Toggle onClick={handleLang}>
+    <S.Toggle
+      aria-label={
+        router.locale === 'pt-BR' ? 'Trocar idioma' : 'Change language'
+      }
+      onClick={handleLang}
+    >
       {title}
       <FaGlobe />
     </S.Toggle>
