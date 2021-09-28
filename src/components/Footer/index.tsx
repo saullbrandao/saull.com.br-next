@@ -20,7 +20,7 @@ const Footer = ({ showIcons = true }) => {
             href="https://github.com/saullbrandao"
             target="_blank"
             rel="noreferrer"
-            aria-label="Github page"
+            aria-label={locale === 'pt-BR' ? 'Página no Github' : 'Github page'}
           >
             <FaGithub />
           </a>
@@ -28,7 +28,9 @@ const Footer = ({ showIcons = true }) => {
             href="https://www.linkedin.com/in/saullbrandao/"
             target="_blank"
             rel="noreferrer"
-            aria-label="Linkedin page"
+            aria-label={
+              locale === 'pt-BR' ? 'Página no Linkedin' : 'Linkedin page'
+            }
           >
             <FaLinkedin />
           </a>
@@ -36,7 +38,9 @@ const Footer = ({ showIcons = true }) => {
             href="mailto: saull@outlook.com"
             target="_blank"
             rel="noreferrer"
-            aria-label="Email address"
+            aria-label={
+              locale === 'pt-BR' ? 'Endereço de email' : 'Email address'
+            }
           >
             <FiMail />
           </a>
@@ -44,7 +48,9 @@ const Footer = ({ showIcons = true }) => {
             href="https://twitter.com/saullbrandao"
             target="_blank"
             rel="noreferrer"
-            aria-label="Twitter page"
+            aria-label={
+              locale === 'pt-BR' ? 'Página no twitter' : 'Twitter page'
+            }
           >
             <FaTwitter />
           </a>
