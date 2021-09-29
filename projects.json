@@ -10,16 +10,15 @@
     "url": "https://countries-app-saullbrandao.vercel.app",
     "description": {
       "ptBR": [
-        "PT_BR",
-        "Use data from the REST Countries API to display information(population, languages, currencies, capital, border countries, etc.) about the countries",
-        "You can filter by region and search by country name",
-        "There is a light and dark mode",
-        "Clicking on a card will open a new page which display more information about the country selected"
+        "Pega dados da API REST Countries e mostra em tela informações(população, idioma, moeda, capital, países limítrofes, etc.) sobre os países",
+        "Pode filtrar por região e pesquisar por nome do país",
+        "Modo claro e escuro",
+        "Clicar em um país abre uma nova página que mostra mais informação sobre o país selecionado"
       ],
       "enUS": [
         "Use data from the REST Countries API to display information(population, languages, currencies, capital, border countries, etc.) about the countries",
         "You can filter by region and search by country name",
-        "There is a light and dark mode",
+        "Light and dark mode",
         "Clicking on a card will open a new page which display more information about the country selected"
       ]
     }
@@ -35,19 +34,19 @@
     "url": "https://todo-app-saullbrandao.vercel.app",
     "description": {
       "ptBR": [
-        "Can add, mark as completed and delete todos",
-        "Filter by all/active/complete todos",
-        "Clear all completed todos",
-        "Todos are saved to localStorage for persistence",
-        "Toggle light and dark mode",
-        "Responsive layout"
+        "Pode adicionar, marcar como completo e deletar tarefas",
+        "Filtrar tarefas por todas/ativas/completas",
+        "Apagar todas as tarefas completas",
+        "Tarefas são persistidas na localStorafe",
+        "Modo claro e escuro",
+        "Layout responsivo"
       ],
       "enUS": [
-        "Can add, mark as completed and delete todos",
+        "Can add, mark as completed and delete tasks",
         "Filter by all/active/complete todos",
         "Clear all completed todos",
         "Todos are saved to localStorage for persistence",
-        "Toggle light and dark mode",
+        "Light and dark mode",
         "Responsive layout"
       ]
     }
@@ -63,12 +62,12 @@
     "url": "https://domain-tracker-orcin-delta.vercel.app/",
     "description": {
       "ptBR": [
-        "Show user's ip information on first page load",
-        "Search for any IP addresses or domains and see the key information and location",
-        "Responsive Layout"
+        "Mostra informação do IP do usuário",
+        "Pesquisar por qualquer domínio ou endereço de IP, mostrar localização e ver informações chave sobre.",
+        "Layout responsivo"
       ],
       "enUS": [
-        "Show user's ip information on first page load",
+        "Show user's IP information on first page load",
         "Search for any IP addresses or domains and see the key information and location",
         "Responsive Layout"
       ]
@@ -85,15 +84,15 @@
     "url": "https://devbook-mu.vercel.app/",
     "description": {
       "ptBR": [
-        "Display the top 10 github users on the homepage",
-        "You can search github users",
-        "There is a light and dark mode",
-        "Clicking on a card will open a new page which display the user's stats"
+        "Mostra top 10 usuários do github na página inicial",
+        "Pode pesquisar usuários do github",
+        "Modo claro e escuro",
+        "Clicando em um usuário abre uma nova página mostrando estatísticas sobre ele"
       ],
       "enUS": [
         "Display the top 10 github users on the homepage",
         "You can search github users",
-        "There is a light and dark mode",
+        "Light and dark mode",
         "Clicking on a card will open a new page which display the user's stats"
       ]
     }
