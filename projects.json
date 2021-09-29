@@ -37,7 +37,7 @@
         "Pode adicionar, marcar como completo e deletar tarefas",
         "Filtrar tarefas por todas/ativas/completas",
         "Apagar todas as tarefas completas",
-        "Tarefas são persistidas na localStorafe",
+        "Tarefas são persistidas na localStorage",
         "Modo claro e escuro",
         "Layout responsivo"
       ],
