@@ -19,9 +19,9 @@
       ],
       "enUS": [
         "Can add, mark as completed and delete tasks",
-        "Filter by all/active/complete todos",
-        "Clear all completed todos",
-        "Todos are saved to localStorage for persistence",
+        "Filter by all/active/complete tasks",
+        "Clear all completed tasks",
+        "Tasks are saved to localStorage for persistence",
         "Light and dark mode",
         "Responsive layout"
       ]
