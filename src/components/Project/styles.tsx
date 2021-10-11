@@ -46,12 +46,17 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
 
-  a {
+  h2 {
     font-size: 2.5rem;
+    color: ${(props) => props.theme.colors.text_secondary};
+  }
+
+  a {
+    font-size: 2rem;
     display: flex;
     justify-content: center;
-    color: ${(props) => props.theme.colors.text_secondary};
     text-decoration: none;
+    color: ${(props) => props.theme.colors.text_secondary};
   }
 
   a:hover {
@@ -59,7 +64,7 @@ export const Wrapper = styled.div`
   }
 
   svg {
-    width: var(--medium);
-    height: var(--medium);
+    width: 2.5rem;
+    height: 2.5rem;
   }
 `

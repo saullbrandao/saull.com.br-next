@@ -1,4 +1,4 @@
-import { FaGithub } from 'react-icons/fa'
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 import Image from 'next/image'
 import { useTheme } from 'hooks/useTheme'
 import { useRouter } from 'next/router'
@@ -27,11 +27,10 @@ const Project = ({ title, images, url, repo, description }: ProjectProps) => {
   return (
     <S.Container>
       <S.Wrapper>
-        <h2>
-          <a href={url} target="_blank" rel="noreferrer">
-            {title}
-          </a>
-        </h2>
+        <h2>{title}</h2>
+        <a href={url} target="_blank" rel="noreferrer">
+          <FaExternalLinkAlt />
+        </a>
         <a
           href={repo}
           target="_blank"
