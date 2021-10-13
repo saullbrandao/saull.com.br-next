@@ -10,7 +10,7 @@ const HomeTemplate = () => {
   const { locale } = useRouter()
 
   const text =
-    locale === 'pt-BR' ? 'Desenvolvedor Front End' : 'Front End Developer'
+    locale === 'pt-BR' ? 'Engenheiro de Software' : 'Software Engineer'
 
   const themeTitle = locale === 'pt-BR' ? 'Tema' : 'Theme'
   const langTitle = locale === 'pt-BR' ? 'Idioma' : 'Language'
