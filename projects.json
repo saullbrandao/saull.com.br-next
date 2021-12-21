@@ -72,5 +72,31 @@
         "Clicking on a card will open a new page which display the user's stats"
       ]
     }
+  },
+   {
+    "id": 4,
+    "title": "ig.news",
+    "images": {
+      "light": "https://raw.githubusercontent.com/saullbrandao/ignews/main/demo.png",
+      "dark": "https://raw.githubusercontent.com/saullbrandao/ignews/main/demo.png"
+    },
+    "repo": "https://github.com/saullbrandao/ignews",
+    "url": "https://ignews-saullbrandao.vercel.app/",
+    "description": {
+      "ptBR": [
+        "Blog de notícias sobre react com assinatura mensal",
+        "Login social usando github",
+        "Usa FaunaDB pra armazenar informações do usuário",
+        "Usa o Stripe para gerenciar o pagamento da assinatura",
+        "Se o usuário não possuir assinatura ativa somente um preview da postagem é mostrado"
+      ],
+      "enUS": [
+        "Subscription based blog with news about React",
+        "Social login with github",
+        "Store user information on FaunaDB",
+        "Use Stripe to handle subscription payment", 
+        "If the user has no active subscription only a post preview is showed"
+      ]
+    }
   }
 ]
